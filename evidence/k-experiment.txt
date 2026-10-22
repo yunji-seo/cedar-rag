@@ -1,0 +1,33 @@
+Actual local execution: 2026-10-22T15:37:23.044246+00:00
+
+Q1 embedding k=1
+Question: May a trained graduate student operate the laser alone at 19:00?
+Question vector shape: (384,)
+Question first12: 0.0485 0.0060 -0.0148 -0.0017 -0.0642 -0.0427 0.0008 -0.0575 -0.0771 -0.0306 0.0749 0.0967
+Question length: 1.000000000
+A2 score=0.686445773
+T1 score=0.581952810
+B1 score=0.532696128
+A1 score=0.374249041
+T2 score=0.270452112
+B2 score=0.128739730
+SELECTED [A2] access.txt: The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.
+Dot/cosine agree (atol=1e-6); max difference=1.49011611938e-08
+Required evidence coverage: 1/2; complete=False
+
+Q1 embedding k=3
+Question: May a trained graduate student operate the laser alone at 19:00?
+Question vector shape: (384,)
+Question first12: 0.0485 0.0060 -0.0148 -0.0017 -0.0642 -0.0427 0.0008 -0.0575 -0.0771 -0.0306 0.0749 0.0967
+Question length: 1.000000000
+A2 score=0.686445773
+T1 score=0.581952810
+B1 score=0.532696128
+A1 score=0.374249041
+T2 score=0.270452112
+B2 score=0.128739730
+SELECTED [A2] access.txt: The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.
+SELECTED [T1] training.txt: Laser training must be renewed every 12 months. A current training record is required before operating the laser.
+SELECTED [B1] booking.txt: Laser room bookings are limited to two hours per session. Reserve the room through the equipment calendar.
+Dot/cosine agree (atol=1e-6); max difference=1.49011611938e-08
+Required evidence coverage: 1/2; complete=False

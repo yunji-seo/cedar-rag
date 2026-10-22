@@ -1,0 +1,1 @@
+PASS: all six labeled paragraphs match the supplied assignment verbatim.

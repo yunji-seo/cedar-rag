@@ -1,0 +1,5 @@
+question_id,keyword_top_ids,keyword_scores,embedding_top_ids,embedding_scores,required_ids,keyword_evidence_complete,embedding_evidence_complete,observation
+Q1,A1;A2,3;2,A2;T1,0.686445773;0.581952810,A1;A2,true,false,"Keyword coverage 2/2; embedding coverage 1/2. Embeddings retrieve A2 and T1 but omit access-hours rule A1. The operating restriction is supported, but the full time explanation is incomplete."
+Q2,A2;B1,2;1,A2;T1,0.585193515;0.434760809,A2,true,true,Both methods cover A2 (1/1). Embedding A2=0.585193515 matches the paraphrase about another person; keyword A2 scores 2 from laser and present.
+Q3,T1;A2,2;1,T1;B1,0.742027521;0.471195340,T1,true,true,Both methods cover T1 (1/1). Embedding T1=0.742027521 handles refresh/qualification versus renewed/training. Keyword also succeeds from must and laser; this is not an embedding-only win.
+Q4,A2;B1,1;1,T1;A2,0.347721398;0.320827246,absent,false,false,Answer absent from the six-source corpus. Embeddings still return T1=0.347721398 and A2=0.320827246 because top-k has no answerability check. Neither method retrieves a wavelength; no coverage ratio applies.

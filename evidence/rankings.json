@@ -1,0 +1,375 @@
+{
+  "Q1": {
+    "question": "May a trained graduate student operate the laser alone at 19:00?",
+    "keyword": [
+      {
+        "id": "A1",
+        "filename": "access.txt",
+        "text": "General laboratory access hours are 08:00 to 22:00 for trained graduate students. Access outside these hours requires written approval from the lab manager.",
+        "matched": [
+          "00",
+          "graduate",
+          "trained"
+        ],
+        "score": 3
+      },
+      {
+        "id": "A2",
+        "filename": "access.txt",
+        "text": "The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.",
+        "matched": [
+          "laser",
+          "trained"
+        ],
+        "score": 2
+      },
+      {
+        "id": "B1",
+        "filename": "booking.txt",
+        "text": "Laser room bookings are limited to two hours per session. Reserve the room through the equipment calendar.",
+        "matched": [
+          "laser"
+        ],
+        "score": 1
+      },
+      {
+        "id": "T1",
+        "filename": "training.txt",
+        "text": "Laser training must be renewed every 12 months. A current training record is required before operating the laser.",
+        "matched": [
+          "laser"
+        ],
+        "score": 1
+      },
+      {
+        "id": "T2",
+        "filename": "training.txt",
+        "text": "Visitors may enter the general laboratory only when accompanied by a trained member of staff.",
+        "matched": [
+          "trained"
+        ],
+        "score": 1
+      },
+      {
+        "id": "B2",
+        "filename": "booking.txt",
+        "text": "Cancel an unused booking at least four hours before its start time.",
+        "matched": [],
+        "score": 0
+      }
+    ],
+    "embedding": [
+      {
+        "id": "A2",
+        "filename": "access.txt",
+        "text": "The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.",
+        "score": 0.6864457726478577
+      },
+      {
+        "id": "T1",
+        "filename": "training.txt",
+        "text": "Laser training must be renewed every 12 months. A current training record is required before operating the laser.",
+        "score": 0.5819528102874756
+      },
+      {
+        "id": "B1",
+        "filename": "booking.txt",
+        "text": "Laser room bookings are limited to two hours per session. Reserve the room through the equipment calendar.",
+        "score": 0.5326961278915405
+      },
+      {
+        "id": "A1",
+        "filename": "access.txt",
+        "text": "General laboratory access hours are 08:00 to 22:00 for trained graduate students. Access outside these hours requires written approval from the lab manager.",
+        "score": 0.37424904108047485
+      },
+      {
+        "id": "T2",
+        "filename": "training.txt",
+        "text": "Visitors may enter the general laboratory only when accompanied by a trained member of staff.",
+        "score": 0.2704521119594574
+      },
+      {
+        "id": "B2",
+        "filename": "booking.txt",
+        "text": "Cancel an unused booking at least four hours before its start time.",
+        "score": 0.12873972952365875
+      }
+    ]
+  },
+  "Q2": {
+    "question": "Can I use the laser without another person present?",
+    "keyword": [
+      {
+        "id": "A2",
+        "filename": "access.txt",
+        "text": "The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.",
+        "matched": [
+          "laser",
+          "present"
+        ],
+        "score": 2
+      },
+      {
+        "id": "B1",
+        "filename": "booking.txt",
+        "text": "Laser room bookings are limited to two hours per session. Reserve the room through the equipment calendar.",
+        "matched": [
+          "laser"
+        ],
+        "score": 1
+      },
+      {
+        "id": "T1",
+        "filename": "training.txt",
+        "text": "Laser training must be renewed every 12 months. A current training record is required before operating the laser.",
+        "matched": [
+          "laser"
+        ],
+        "score": 1
+      },
+      {
+        "id": "A1",
+        "filename": "access.txt",
+        "text": "General laboratory access hours are 08:00 to 22:00 for trained graduate students. Access outside these hours requires written approval from the lab manager.",
+        "matched": [],
+        "score": 0
+      },
+      {
+        "id": "B2",
+        "filename": "booking.txt",
+        "text": "Cancel an unused booking at least four hours before its start time.",
+        "matched": [],
+        "score": 0
+      },
+      {
+        "id": "T2",
+        "filename": "training.txt",
+        "text": "Visitors may enter the general laboratory only when accompanied by a trained member of staff.",
+        "matched": [],
+        "score": 0
+      }
+    ],
+    "embedding": [
+      {
+        "id": "A2",
+        "filename": "access.txt",
+        "text": "The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.",
+        "score": 0.5851935148239136
+      },
+      {
+        "id": "T1",
+        "filename": "training.txt",
+        "text": "Laser training must be renewed every 12 months. A current training record is required before operating the laser.",
+        "score": 0.43476080894470215
+      },
+      {
+        "id": "B1",
+        "filename": "booking.txt",
+        "text": "Laser room bookings are limited to two hours per session. Reserve the room through the equipment calendar.",
+        "score": 0.4253562092781067
+      },
+      {
+        "id": "T2",
+        "filename": "training.txt",
+        "text": "Visitors may enter the general laboratory only when accompanied by a trained member of staff.",
+        "score": 0.19075393676757812
+      },
+      {
+        "id": "B2",
+        "filename": "booking.txt",
+        "text": "Cancel an unused booking at least four hours before its start time.",
+        "score": 0.05762290582060814
+      },
+      {
+        "id": "A1",
+        "filename": "access.txt",
+        "text": "General laboratory access hours are 08:00 to 22:00 for trained graduate students. Access outside these hours requires written approval from the lab manager.",
+        "score": 0.035636112093925476
+      }
+    ]
+  },
+  "Q3": {
+    "question": "How frequently must I refresh my laser qualification?",
+    "keyword": [
+      {
+        "id": "T1",
+        "filename": "training.txt",
+        "text": "Laser training must be renewed every 12 months. A current training record is required before operating the laser.",
+        "matched": [
+          "laser",
+          "must"
+        ],
+        "score": 2
+      },
+      {
+        "id": "A2",
+        "filename": "access.txt",
+        "text": "The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.",
+        "matched": [
+          "laser"
+        ],
+        "score": 1
+      },
+      {
+        "id": "B1",
+        "filename": "booking.txt",
+        "text": "Laser room bookings are limited to two hours per session. Reserve the room through the equipment calendar.",
+        "matched": [
+          "laser"
+        ],
+        "score": 1
+      },
+      {
+        "id": "A1",
+        "filename": "access.txt",
+        "text": "General laboratory access hours are 08:00 to 22:00 for trained graduate students. Access outside these hours requires written approval from the lab manager.",
+        "matched": [],
+        "score": 0
+      },
+      {
+        "id": "B2",
+        "filename": "booking.txt",
+        "text": "Cancel an unused booking at least four hours before its start time.",
+        "matched": [],
+        "score": 0
+      },
+      {
+        "id": "T2",
+        "filename": "training.txt",
+        "text": "Visitors may enter the general laboratory only when accompanied by a trained member of staff.",
+        "matched": [],
+        "score": 0
+      }
+    ],
+    "embedding": [
+      {
+        "id": "T1",
+        "filename": "training.txt",
+        "text": "Laser training must be renewed every 12 months. A current training record is required before operating the laser.",
+        "score": 0.7420275211334229
+      },
+      {
+        "id": "B1",
+        "filename": "booking.txt",
+        "text": "Laser room bookings are limited to two hours per session. Reserve the room through the equipment calendar.",
+        "score": 0.4711953401565552
+      },
+      {
+        "id": "A2",
+        "filename": "access.txt",
+        "text": "The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.",
+        "score": 0.449257493019104
+      },
+      {
+        "id": "A1",
+        "filename": "access.txt",
+        "text": "General laboratory access hours are 08:00 to 22:00 for trained graduate students. Access outside these hours requires written approval from the lab manager.",
+        "score": 0.23632733523845673
+      },
+      {
+        "id": "B2",
+        "filename": "booking.txt",
+        "text": "Cancel an unused booking at least four hours before its start time.",
+        "score": 0.14731010794639587
+      },
+      {
+        "id": "T2",
+        "filename": "training.txt",
+        "text": "Visitors may enter the general laboratory only when accompanied by a trained member of staff.",
+        "score": 0.040951646864414215
+      }
+    ]
+  },
+  "Q4": {
+    "question": "What is the laser wavelength?",
+    "keyword": [
+      {
+        "id": "A2",
+        "filename": "access.txt",
+        "text": "The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.",
+        "matched": [
+          "laser"
+        ],
+        "score": 1
+      },
+      {
+        "id": "B1",
+        "filename": "booking.txt",
+        "text": "Laser room bookings are limited to two hours per session. Reserve the room through the equipment calendar.",
+        "matched": [
+          "laser"
+        ],
+        "score": 1
+      },
+      {
+        "id": "T1",
+        "filename": "training.txt",
+        "text": "Laser training must be renewed every 12 months. A current training record is required before operating the laser.",
+        "matched": [
+          "laser"
+        ],
+        "score": 1
+      },
+      {
+        "id": "A1",
+        "filename": "access.txt",
+        "text": "General laboratory access hours are 08:00 to 22:00 for trained graduate students. Access outside these hours requires written approval from the lab manager.",
+        "matched": [],
+        "score": 0
+      },
+      {
+        "id": "B2",
+        "filename": "booking.txt",
+        "text": "Cancel an unused booking at least four hours before its start time.",
+        "matched": [],
+        "score": 0
+      },
+      {
+        "id": "T2",
+        "filename": "training.txt",
+        "text": "Visitors may enter the general laboratory only when accompanied by a trained member of staff.",
+        "matched": [],
+        "score": 0
+      }
+    ],
+    "embedding": [
+      {
+        "id": "T1",
+        "filename": "training.txt",
+        "text": "Laser training must be renewed every 12 months. A current training record is required before operating the laser.",
+        "score": 0.3477213978767395
+      },
+      {
+        "id": "A2",
+        "filename": "access.txt",
+        "text": "The laser room requires two trained people to be present whenever the laser is operating, including during general laboratory access hours.",
+        "score": 0.3208272457122803
+      },
+      {
+        "id": "B1",
+        "filename": "booking.txt",
+        "text": "Laser room bookings are limited to two hours per session. Reserve the room through the equipment calendar.",
+        "score": 0.31150108575820923
+      },
+      {
+        "id": "A1",
+        "filename": "access.txt",
+        "text": "General laboratory access hours are 08:00 to 22:00 for trained graduate students. Access outside these hours requires written approval from the lab manager.",
+        "score": 0.05795073136687279
+      },
+      {
+        "id": "B2",
+        "filename": "booking.txt",
+        "text": "Cancel an unused booking at least four hours before its start time.",
+        "score": -0.04349702596664429
+      },
+      {
+        "id": "T2",
+        "filename": "training.txt",
+        "text": "Visitors may enter the general laboratory only when accompanied by a trained member of staff.",
+        "score": -0.0544881708920002
+      }
+    ]
+  }
+}
