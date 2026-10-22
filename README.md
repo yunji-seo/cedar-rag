@@ -1,6 +1,6 @@
 # Cedar Lab RAG Challenge
 
-Author: **yunji-seo**. Partner: **none**. Prepared with Codex assistance.
+Author: **Yunji Seo** (GitHub: yunji-seo). Partner: **none**. Prepared with Codex assistance; the individual reflection was written by Yunji Seo.
 Fictional classroom documents only; not operational safety guidance.
 
 This project separates preparation (six labeled paragraphs), retrieval (keyword or actual CPU embeddings), and generation (a fresh, restricted answer context). It is a teaching workflow, not a deployed application.
@@ -32,7 +32,7 @@ An internet connection is needed for package installation and the first model do
 - `results-unjudged.csv`: original comparison rows with judgment fields blank.
 - `results.csv`: reviewed comparison with **Codex-prepared judgments**, for the student to verify.
 - `evidence/`: raw vector inspection, retrieval rankings, k experiment, restricted answer inputs, answers and claim audits.
-- `REFLECTION_WORKSHEET.md`: student-authored reflection still required; Codex has not written a personal explanation.
+- `REFLECTION_WORKSHEET.md`: completed individual reflection written by Yunji Seo and reproduced verbatim.
 
 Raw keyword counts and embedding similarities have different scales; do not compare their numeric sizes. Evidence coverage counts required chunks in the selected set: Q1 denominator 2, Q2/Q3 denominator 1. Q4 has no answer-bearing passage and coverage is not applicable.
 

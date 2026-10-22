@@ -1,24 +1,20 @@
-# Individual reflection — student must write this
+# Individual reflection
 
-Author: yunji-seo. Partner: none.
+Author: Yunji Seo. Partner: none.
 
-The assignment explicitly says: "Do not ask Codex to write your personal explanation."
-No personal reflection has been generated or attributed to the student.
+The following reflection was written and supplied by Yunji Seo and is reproduced verbatim.
 
-Write your own reflection below (150 words maximum). Use your actual run records.
+## Reflection
 
-1. In your own words, how did a question become a cited answer?
-2. Which specific failure or limitation did you observe? Identify the question and evidence.
-3. What one change would you test next, and how would you judge whether it helped?
+In this assignment, I learned how a RAG system transforms a question into a vector, retrieves relevant passages using similarity scores, and generates an answer supported by citations.
 
-## Your reflection
+One important limitation I observed was that retrieving relevant passages does not guarantee complete evidence. For Q1, the model correctly concluded that operating the laser alone was prohibited, but it could not verify whether 19:00 was within permitted access hours because the relevant passage (A1) was missing. For Q4, the retriever returned laser-related passages even though none contained the wavelength. Fortunately, the model acknowledged the missing information instead of inventing an answer.
 
-[Write your reflection here before submitting.]
+As a next step, I would experiment with different values of k and evaluate evidence coverage. I would also explore methods for detecting when retrieved passages are insufficient to answer a question.
 
 ## Review before submission
 
 - Read the code explanation and manually verify the Q1 keyword score.
 - Review the judgments in results.csv; these were prepared by Codex, not personally entered by the student.
 - Read both answer audits and verify each claim against its supplied passage.
-- Replace this reflection placeholder with your own explanation.
 - Submit your repository URL to the course Sign Up Sheet (its link was not present in the pasted assignment).
