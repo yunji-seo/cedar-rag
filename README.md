@@ -1,7 +1,6 @@
 # Cedar Lab RAG Challenge
 
-Author: **Yunji Seo** (GitHub: yunji-seo). Partner: **none**. Prepared with Codex assistance; the individual reflection was written by Yunji Seo.
-Fictional classroom documents only; not operational safety guidance.
+Author: **Yunji Seo**
 
 This project separates preparation (six labeled paragraphs), retrieval (keyword or actual CPU embeddings), and generation (a fresh, restricted answer context). It is a teaching workflow, not a deployed application.
 
