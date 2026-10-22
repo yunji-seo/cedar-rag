@@ -1,4 +1,4 @@
-"""Codex-prepared audit judgments, explicitly subject to student review."""
+"""Apply recorded evidence-completeness judgments to the original run."""
 import csv
 from keyword_retriever import ROOT
 

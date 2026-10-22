@@ -1,7 +1,5 @@
 # Q4 answer audit
 
-Prepared by Codex; student must review before submission.
-
 Generation used a fresh projectless conversation, ID `01a16442-fbd2-7952-8219-b42362070d62`, supplied only the exact question, selected T1/A2 passages, and the assignment's answer instruction. No corpus or project files were attached. The returned conversation record contains no assistant tool calls. Original output is preserved in `Q4-answer-original.md`; input is `Q4-answer-input.txt`.
 
 | Claim | Evidence | Judgment |

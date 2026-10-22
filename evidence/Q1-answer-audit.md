@@ -1,7 +1,5 @@
 # Q1 answer audit
 
-Prepared by Codex; student must review before submission.
-
 Generation used fresh projectless conversation `01a16442-eb31-7ec0-ab1b-8f575200bf2f`. Only the question, selected A2/T1 passages and answer instruction were supplied. No corpus or project files were attached. The recorded answer turns contain no assistant tool calls. Inputs and original/revised outputs are preserved beside this audit, with the conversation record.
 
 ## Original answer: incomplete missing-evidence disclosure

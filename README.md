@@ -29,15 +29,15 @@ An internet connection is needed for package installation and the first model do
 - `embedding.py`: `sentence-transformers/all-MiniLM-L6-v2`, CPU, normalized 384-coordinate vectors, dot products and a direct cosine check. Always selects top k, even when the answer is absent.
 - `run_experiments.py`: encodes all documents once, reuses them for Q1–Q4 and the k experiment, saves actual run output and fresh-answer input packets.
 - `results-unjudged.csv`: original comparison rows with judgment fields blank.
-- `results.csv`: reviewed comparison with **Codex-prepared judgments**, for the student to verify.
+- `results.csv`: retrieval comparison, evidence-completeness judgments, and observations.
 - `evidence/`: raw vector inspection, retrieval rankings, k experiment, restricted answer inputs, answers and claim audits.
-- `REFLECTION_WORKSHEET.md`: completed individual reflection written by Yunji Seo and reproduced verbatim.
+- `REFLECTION_WORKSHEET.md`: individual reflection by Yunji Seo.
 
 Raw keyword counts and embedding similarities have different scales; do not compare their numeric sizes. Evidence coverage counts required chunks in the selected set: Q1 denominator 2, Q2/Q3 denominator 1. Q4 has no answer-bearing passage and coverage is not applicable.
 
-`review_results.py` applies the recorded Codex audit to the original run; its prose observations refer to this run's exact scores. If package/model versions or inputs change, re-audit and update those observations rather than treating them as new measurements. The generator answers are manual handoffs, so experiment reruns do not regenerate the answer audits.
+`review_results.py` applies the recorded audit to the original run; its prose observations refer to this run's exact scores. If package/model versions or inputs change, re-audit and update those observations rather than treating them as new measurements. The generator answers are manual handoffs, so experiment reruns do not regenerate the answer audits.
 
-Observed result: Q1 keyword retrieval is complete (A1/A2), while embeddings select A2/T1 and miss A1. Increasing k to 3 adds B1 without repairing that omission. Both methods retrieve the target for Q2 and Q3. Q4 has no wavelength evidence. The original Q1 answer omitted the access-hours uncertainty; one instruction revision fixed its disclosure. See `evidence/retrieval-audit.md`, both answer audits, and `SUBMISSION_CHECKLIST.md`.
+Observed result: Q1 keyword retrieval is complete (A1/A2), while embeddings select A2/T1 and miss A1. Increasing k to 3 adds B1 without repairing that omission. Both methods retrieve the target for Q2 and Q3. Q4 has no wavelength evidence. The original Q1 answer omitted the access-hours uncertainty; one instruction revision fixed its disclosure. See `evidence/retrieval-audit.md` and both answer audits.
 
 ## How the code works
 

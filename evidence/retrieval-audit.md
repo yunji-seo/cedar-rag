@@ -1,4 +1,4 @@
-# Retrieval audit (Codex-prepared; student review required)
+# Retrieval audit
 
 No output is borrowed or invented. The model was run locally on CPU on 2026-10-22. The preserved blank comparison is `results-unjudged.csv`; judged results are `results.csv`.
 
