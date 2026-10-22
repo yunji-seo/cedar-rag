@@ -69,4 +69,3 @@ if __name__ == '__main__':
     retriever = Retriever()
     retriever.describe()
     retriever.retrieve(args.question, args.k, args.inspect)
-
